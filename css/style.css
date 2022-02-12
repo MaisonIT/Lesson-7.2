@@ -1,0 +1,109 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+	font-weight: 400;
+}
+.wrapper {
+	min-height: 100%;
+	width: 810px;
+	margin: 0 auto;
+}
+.main-title {
+	margin: 0 0 92px 0;
+	font-size: 46px;
+	font-weight: 900;
+	color: #1e212c;
+}
+.day,
+.time {
+	display: inline-block;
+	color: #787a80;
+	margin: 0 24px 40px 0;
+}
+.day {
+	padding: 0 0 0 25px;
+	background: url("../img/day.png") 0 0 no-repeat;
+}
+.time {
+	padding: 0 0 0 25px;
+	background: url("../img/Union.png") 0 0 no-repeat;
+}
+img {
+	margin: 0 0 60px 0;
+}
+.main-text {
+	margin: 0 0 40px 0;
+	font-size: 20px;
+	color: #1e212c;
+	font-weight: 700;
+}
+.text1,
+.text2 {
+	margin: 0 0 32px 0;
+}
+.text-center {
+	padding: 0 0 0 80px;
+	background: url("../img/braces.png") 0 0 no-repeat;
+	text-align: left;
+	font-size: 20px;
+	color: #1e212c;
+	font-weight: 700;
+}
+.text-title {
+	margin: 48px 0 29px 0;
+}
+ul {
+	margin: 0 0 24px 0;
+}
+ul li {
+	padding: 0 0 0 32px;
+	background: url("../img/Vector.svg") 0 0 no-repeat;
+	margin: 0 0 8px 0;
+}
+.text-footer {
+	line-height: 160%;
+
+	height: 200px;
+	margin: 0 0 100px 0;
+}
+.who {
+	margin: 0 0 16px 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+}
+.why {
+	margin: 0 0 40px 0;
+	font-size: 46px;
+	color: #1e212c;
+}
+.block-list-footer {
+	margin: 0 0 48px 0;
+}
+.list-footer li {
+	width: 390px;
+	margin: 0 0 24px 0;
+}
+.block-button {
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	text-align: center;
+	width: 161px;
+	height: 44px;
+	padding: 16px;
+	border-radius: 4px;
+}
+.button {
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	font-size: 14px;
+	color: #ffffff;
+}
